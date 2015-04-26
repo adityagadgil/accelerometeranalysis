@@ -1,9 +1,9 @@
 							SUMMARIZED ACCELEROMETER DATA 
 					EVERY VARIABLE IS AVERAGED OVER SUBJECT AND ACTIVITY
                                                                                                                                                         
-    VARIABLE NAME    	    VARIABLE DESCRIPTION        UNITS		            												              
+    VARIABLE NAME    	    VARIABLE DESCRIPTION        DATA TYPE		            												              
                                                                                 
-    SUBJECT   	       		IDENTIFIER ID OF SUBJECT	INT	
+    SUBJECT   	       		IDENTIFIER ID OF SUBJECT	INTEGER	
 							CAN HAVE VALUES BETWEEN 
 							1-30
                                                                                 
@@ -15,130 +15,130 @@
 														STANDING
 														LAYING
 									                              
-    tBodyAcc-mean()-X      								NUM                                
+    tBodyAcc-mean()-X      								NUMERIC                                
                                                                                 
-    tBodyAcc-mean()-Y 									NUM
+    tBodyAcc-mean()-Y 									NUMERIC
 	
-	tBodyAcc-mean()-Z 									NUM
+	tBodyAcc-mean()-Z 									NUMERIC
 	
-	tBodyAcc-std()-X 									NUM
+	tBodyAcc-std()-X 									NUMERIC
 	
-	tBodyAcc-std()-Y 									NUM
+	tBodyAcc-std()-Y 									NUMERIC
 	
-	tBodyAcc-std()-Z 									NUM
+	tBodyAcc-std()-Z 									NUMERIC
 	
-	tGravityAcc-mean()-X 								NUM
+	tGravityAcc-mean()-X 								NUMERIC
 	
-	tGravityAcc-mean()-Y 								NUM
+	tGravityAcc-mean()-Y 								NUMERIC
 	
-	tGravityAcc-mean()-Z 								NUM
+	tGravityAcc-mean()-Z 								NUMERIC
 	
-	tGravityAcc-std()-X 								NUM
+	tGravityAcc-std()-X 								NUMERIC
 	
-	tGravityAcc-std()-Y 								NUM
+	tGravityAcc-std()-Y 								NUMERIC
 	
-	tGravityAcc-std()-Z 								NUM
+	tGravityAcc-std()-Z 								NUMERIC
 	
-	tBodyAccJerk-mean()-X 								NUM
+	tBodyAccJerk-mean()-X 								NUMERIC
 	
-	tBodyAccJerk-mean()-Y 								NUM
+	tBodyAccJerk-mean()-Y 								NUMERIC
 	
-	tBodyAccJerk-mean()-Z 								NUM
+	tBodyAccJerk-mean()-Z 								NUMERIC
 	
-	tBodyAccJerk-std()-X 								NUM
+	tBodyAccJerk-std()-X 								NUMERIC
 	
-	tBodyAccJerk-std()-Y 								NUM
+	tBodyAccJerk-std()-Y 								NUMERIC
 	
-	tBodyAccJerk-std()-Z 								NUM
+	tBodyAccJerk-std()-Z 								NUMERIC
 	
-	tBodyGyro-mean()-X 									NUM
+	tBodyGyro-mean()-X 									NUMERIC
 	
-	tBodyGyro-mean()-Y 									NUM
+	tBodyGyro-mean()-Y 									NUMERIC
 	
-	tBodyGyro-mean()-Z 									NUM
+	tBodyGyro-mean()-Z 									NUMERIC
 	
-	tBodyGyro-std()-X 									NUM
+	tBodyGyro-std()-X 									NUMERIC
 	
-	tBodyGyro-std()-Z 									NUM
+	tBodyGyro-std()-Z 									NUMERIC
 	
-	tBodyGyroJerk-mean()-X 								NUM
+	tBodyGyroJerk-mean()-X 								NUMERIC
 	
-	tBodyGyroJerk-mean()-Y 								NUM
+	tBodyGyroJerk-mean()-Y 								NUMERIC
 	
-	tBodyGyroJerk-mean()-Z 								NUM
+	tBodyGyroJerk-mean()-Z 								NUMERIC
 	
-	tBodyGyroJerk-std()-Y 								NUM
+	tBodyGyroJerk-std()-Y 								NUMERIC
 	
-	tBodyGyroJerk-std()-Z 								NUM
+	tBodyGyroJerk-std()-Z 								NUMERIC
 	
-	tBodyAccMag-mean() 									NUM
+	tBodyAccMag-mean() 									NUMERIC
 	
-	tBodyAccMag-std() 									NUM
+	tBodyAccMag-std() 									NUMERIC
 	
-	tGravityAccMag-mean() 								NUM
+	tGravityAccMag-mean() 								NUMERIC
 	
-	tGravityAccMag-std() 								NUM
+	tGravityAccMag-std() 								NUMERIC
 	
-	tBodyAccJerkMag-mean() 								NUM
+	tBodyAccJerkMag-mean() 								NUMERIC
 	
-	tBodyAccJerkMag-std() 								NUM
+	tBodyAccJerkMag-std() 								NUMERIC
 	
-	tBodyGyroMag-mean() 								NUM
+	tBodyGyroMag-mean() 								NUMERIC
 	
-	tBodyGyroMag-std() 									NUM
+	tBodyGyroMag-std() 									NUMERIC
 	
-	tBodyGyroJerkMag-mean()								NUM
+	tBodyGyroJerkMag-mean()								NUMERIC
 
-	tBodyGyroJerkMag-std() 								NUM
+	tBodyGyroJerkMag-std() 								NUMERIC
 	
-	fBodyAcc-mean()-X 									NUM
+	fBodyAcc-mean()-X 									NUMERIC
 	
-	fBodyAcc-mean()-Y 									NUM
+	fBodyAcc-mean()-Y 									NUMERIC
 	
-	fBodyAcc-mean()-Z 									NUM
+	fBodyAcc-mean()-Z 									NUMERIC
 	
-	fBodyAcc-std()-X 									NUM
+	fBodyAcc-std()-X 									NUMERIC
 	
-	fBodyAcc-std()-Y 									NUM
+	fBodyAcc-std()-Y 									NUMERIC
 	
-	fBodyAcc-std()-Z 									NUM
+	fBodyAcc-std()-Z 									NUMERIC
 	
-	fBodyAccJerk-mean()-X 								NUM
+	fBodyAccJerk-mean()-X 								NUMERIC
 	
-	fBodyAccJerk-mean()-Y 								NUM
+	fBodyAccJerk-mean()-Y 								NUMERIC
 	
-	fBodyAccJerk-mean()-Z 								NUM
+	fBodyAccJerk-mean()-Z 								NUMERIC
 	
-	fBodyAccJerk-std()-X								NUM
+	fBodyAccJerk-std()-X								NUMERIC
 
-	fBodyAccJerk-std()-Y 								NUM
+	fBodyAccJerk-std()-Y 								NUMERIC
 	
-	fBodyAccJerk-std()-Z 								NUM
+	fBodyAccJerk-std()-Z 								NUMERIC
 	
-	fBodyGyro-mean()-X 									NUM
+	fBodyGyro-mean()-X 									NUMERIC
 	
-	fBodyGyro-mean()-Y 									NUM
+	fBodyGyro-mean()-Y 									NUMERIC
 	
-	fBodyGyro-mean()-Z 									NUM
+	fBodyGyro-mean()-Z 									NUMERIC
 	
-	fBodyGyro-std()-X									NUM
+	fBodyGyro-std()-X									NUMERIC
 
-	fBodyGyro-std()-Y 									NUM
+	fBodyGyro-std()-Y 									NUMERIC
 	
-	fBodyGyro-std()-Z 									NUM
+	fBodyGyro-std()-Z 									NUMERIC
 	
-	fBodyAccMag-mean()									NUM
+	fBodyAccMag-mean()									NUMERIC
 
-	fBodyAccMag-std()									NUM
+	fBodyAccMag-std()									NUMERIC
 
-	fBodyBodyAccJerkMag-mean() 							NUM
+	fBodyBodyAccJerkMag-mean() 							NUMERIC
 	
-	fBodyBodyAccJerkMag-std()							NUM
+	fBodyBodyAccJerkMag-std()							NUMERIC
 
-	fBodyBodyGyroMag-mean()								NUM
+	fBodyBodyGyroMag-mean()								NUMERIC
 
-	fBodyBodyGyroMag-std() 								NUM
+	fBodyBodyGyroMag-std() 								NUMERIC
 	
-	fBodyBodyGyroJerkMag-mean() 						NUM
+	fBodyBodyGyroJerkMag-mean() 						NUMERIC
 	
-	fBodyBodyGyroJerkMag-std()							NUM
+	fBodyBodyGyroJerkMag-std()							NUMERIC
